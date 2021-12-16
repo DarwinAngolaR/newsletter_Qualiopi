@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(226, 226, 226);
+}
+
+body {
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  padding: 15px 0;
+  font-size: 23px;
+  letter-spacing: 0.4px;
+}
+
+button {
+  background-color: #29438b;
+  border-radius: 45px;
+  padding: 5% 10%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+}
+/* header */
+
+.header {
+  background-color: #80b4f9;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-size: 8px;
+  padding: 4%;
+}
+
+.logo {
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 3%;
+}
+
+/* banner 1 */
+
+.banner1 {
+  display: flex;
+  overflow: hidden;
+}
+
+.logoq {
+  width: 200px;
+  padding-bottom: 3%;
+}
+
+.colombbus {
+  font-weight: 500;
+}
+
+.illust {
+  width: 425px;
+}
+
+.bantex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  color: #29438b;
+  font-weight: 700;
+}
+
+/* banner 2 */
+
+.banner2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.pres {
+  width: 225px;
+  position: relative;
+  left: 50px;
+}
+
+.ban2 {
+  background-color: #80b4f9;
+  height: 320px;
+  color: white;
+  padding: 5%;
+}
+
+.mot {
+  padding-left: 38px;
+}
+
+.but1 {
+  position: relative;
+  top: 24px;
+
+}
+
+.felici {
+  font-size: 17px;
+  font-style: italic;
+  line-height: 26px;
+}
+
+/* banner 3 */
+
+.banner3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.direc {
+  width: 205px;
+  position: relative;
+  right: 50px;
+  top: 22px;
+}
+
+.ban3 {
+  background-color: #80b4f9;
+  color: white;
+  padding: 4% 0% 5% 6%;
+}
+
+.bandirec {
+  font-size: 17px;
+  font-style: italic;
+  line-height: 25px;
+  padding-right: 25%;
+  letter-spacing: 0.5px;
+}
+
+.motdire {
+  margin-bottom: 12px;
+}
+
+.but2 {
+  position: relative;
+  top: 55px;
+}
+
+/* banner 4 */
+
+.numerik {
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+
+.banner4 {
+  background-color: #80b4f9;
+  color: white;
+  padding: 5% 20% 5% 5%;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+.demarche {
+  line-height: 24px;
+  font-size: 14px;
+  padding-right: 20%;
+  letter-spacing: 0.5px;
+}
+
+.but3 {
+  position: relative;
+  bottom: 25px;
+  left: 375px;
+  height: 60px;
+  padding: 0% 6%;
+}
+
+/* Banner 5 */
+
+.banner5 {
+  display: flex;
+  color: #80b4f9;
+  padding: 40px;
+}
+
+.qualiopi5 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 0.7px;
+}
+
+.qualiopi6 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-right: 5%;
+  margin-top: 10px;
+  letter-spacing: 0.7px;
+}
+
+/*footer*/
+
+.contact {
+  text-align: center;
+  color: #29438b;
+  height: 60px;
+  margin-top: 5%;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.redes {
+  background-color: #29438b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesf {
+  width: 40px;
+  margin: 20px;
+}
+
+.redes2 {
+  width: 30px;
+  margin: 20px;
+}
+
+.regis {
+  width: auto;
+  padding-right: 40px;
+}
+
+.chantier {
+  width: auto;
+  border-left: 1px solid #80b4f9;
+  padding-left: 40px;
+}
+
+.mailto {
+  color: #29438b;
+  text-transform: none;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 25%;
+  }
+
+  .illust {
+    width: 100%;
+  }
+
+  .banner1 {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bantex {
+    align-items: center;
+    padding: 5% 0;
+  }
+
+  .colombbus {
+    padding: 5%;
+  }
+
+  .banner2,
+  .banner3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner3 {
+    flex-direction: column-reverse;
+  }
+
+  .banner4, .banner5, .ban3{
+    padding: 10%;
+  }
+
+  .pres {
+    left: auto;
+  }
+
+  .direc {
+    right: 0;
+    top: 4px;
+  }
+
+  .but3 {
+    left: 55%;
+  }
+
+  .banner5 {
+    flex-direction: column;
+  }
+
+  .regis {
+    padding-right: 0;
+  }
+
+  .chantier {
+    padding-left: 0;
+    padding-top: 5%;
+    border-top: 1px solid #80b4f9;
+    border-left: none;
+  }
+
+  .bandirec{
+    padding-right: 0%;
+  }
+}
